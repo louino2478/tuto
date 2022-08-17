@@ -3,7 +3,6 @@ theme: jekyll-theme-primer
 site: louino.fr
 url: https://louino.fr
 title: louino
-description: Des tuto que j'écris
 
 collections:
   pages:
