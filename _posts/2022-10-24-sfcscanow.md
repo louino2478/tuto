@@ -42,3 +42,7 @@ sfc /scannow /offbootdir=C:\ /offwindir=C:\Windows
 ```
 
 remplacer `C:\` par la lettre de lecteur de votre installation Windows
+
+---
+
+cette documentation est disponible dans un repo GitHub public, vous pouvais contribuer [ici](https://github.com/louino2478/tuto/tree/master/_posts).
