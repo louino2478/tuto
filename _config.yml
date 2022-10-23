@@ -11,3 +11,5 @@ collections:
   posts:
     output: true
     permalink: /:year/:month/:day/:slug
+
+future: true
