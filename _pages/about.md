@@ -10,7 +10,7 @@ Ici, je dépose des tutos (en [markdown](https://fr.wikipedia.org/wiki/Markdown)
 
 #### Mon [GitHub](https://github.com/louino2478) : 
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api?username=louino2478&count_private=true&show_icons=true)]()
+![ReadMe Card](https://github-readme-stats.vercel.app/api?username=louino2478&count_private=true&theme=dark&show_icons=true)
 
 **Contact :**
 
