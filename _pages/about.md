@@ -15,4 +15,6 @@ Ici, je dépose des tutos (en [markdown](https://fr.wikipedia.org/wiki/Markdown)
 **Contact :**
 
 * Mail : [contact@louino.fr](mailto:contact@louino.fr)
+* Mastodon : [@louino@mastodon.louino.fr](https://mastodon.louino.fr/@louino)
+* Twitter : [@louino_](https://twitter.com/louino_)
 
