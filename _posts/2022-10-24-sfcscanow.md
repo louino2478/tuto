@@ -61,4 +61,4 @@ Remplacez `C` par la lettre de lecteur identifié à l'étape précédente.
 
 ---
 
-Cette documentation est disponible dans un déôt GitHub public, vous pouvez y contribuer [ici](https://github.com/louino2478/tuto/tree/master/_posts).
+Cette documentation est disponible dans un dépôt GitHub public, vous pouvez y contribuer [ici](https://github.com/louino2478/tuto/tree/master/_posts).
