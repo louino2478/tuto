@@ -7,7 +7,7 @@ tags: []
 
 
 
-Cette documentation recueille des commandes Windows pour réparer des problèmes (BSOD, ereur, ect...) pour Windows 11,10,8.1,8,ect...
+Cette documentation recueille des commandes Windows pour réparer des problèmes (BSOD, erreur, ect...) pour Windows 11,10,8.1,8,ect...
 
 # **Vérification de l'image de Windows :**
 
