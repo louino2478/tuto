@@ -7,52 +7,58 @@ tags: []
 
 
 
-cette documentation recueil des commande Windows pour réparer des problème (BSOD, ereur, ect...) pour Windows 11,10,8.1,8,ect...
+Cette documentation recueille des commandes Windows pour réparer des problèmes (BSOD, ereur, ect...) pour Windows 11,10,8.1,8,ect...
 
-# **vérification de l'image de Windows :**
+# **Vérification de l'image de Windows :**
 
-Avant d'effectuer une réparation de Windows, nous devons d'abord s'assurer son image soit en bon état. Et si nécessaire la réparait.
+Avant d'effectuer une réparation de Windows, nous devons d'abord s'assurer son image soit en bon état. Et dans le cas contraire la réparer.
 
-## avec  Windows update
+## Avec Windows Update
 
 ```powershell
 Dism /Online /Cleanup-Image /ScanHealth
 Dism /Online /Cleanup-Image /RestoreHealth
 ```
 
-## sans Windows update 
-Si les commandes précédentes ont échoué car Windows Update est défectueux, vous pouvez utiliser une ISO de Windows comme source de réparation.
+## Sans Windows Update
+
+Si les commandes précédentes échouent, cela est dû a une défaillance de Windows Update.
+Pour contourner le problème, on utilise comme source une image (ISO) de Windows pour lancer la réparation.
+
 ```powershell
 DISM.exe /Online /Cleanup-Image /RestoreHealth /Source:C:\RepairSource\Windows /LimitAccess
 ```
 
-**NOTE :**  remplacé ```C:\RepairSource\Windows``` par l'emplacement de votre source de réparation dans votre ISO.
+**NOTE :** Remplacer ```C:\RepairSource\Windows``` par l'emplacement de votre image Windows.
 
-# **réparation de Windows :**
+# **Réparation de Windows :**
 
-Ces commandes sont a faire après avoir vérifié l'image de Windows. Elles vont permettre de comparer votre installation de Windows et celle de son image. afin de réparer des fichiers corrompus quand cela est possible.
+Vous devez d'abord avoir vérifé l'intégrité de l'image de Windows avant de passer à cette étape.
 
-## dans un cmd normal en admin
+Ces commandes vous permettront de comparer votre installation de Windows avec l'image ISO afin de réparer d'eventuels fichiers corrompus dans la mesure du possible.
+
+## Dans une console Windows (CMD) avec droits administrateur
 
 ```powershell
 sfc /scannow
 ```
 
-## depuis la console de récupération d'une clef USB bootable
+## Depuis la console de récupération d'une clé bootable Windows
 
-il faut abord trouver sur qu'elle lecteur se trouve Windows
+Vous devez d'abord identifier la partition contenant votre Windows avec cette commande :
+
 ```powershell
 bcdedit /enumlist
 ```
 
-puis:
+Une fois le lecteur identifié, vous pouvez lancer la réparation :
 
 ```powershell
 sfc /scannow /offbootdir=C:\ /offwindir=C:\Windows
 ```
 
-remplacer `C:\` par la lettre de lecteur de votre installation Windows
+Remplacez `C` par la lettre de lecteur identifié à l'étape précédente.
 
 ---
 
-cette documentation est disponible dans un repo GitHub public, vous pouvais contribuer [ici](https://github.com/louino2478/tuto/tree/master/_posts).
+Cette documentation est disponible dans un déôt GitHub public, vous pouvez y contribuer [ici](https://github.com/louino2478/tuto/tree/master/_posts).
