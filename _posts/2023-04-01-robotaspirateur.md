@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Les robots aspirateurs de course : la nouvelle tendance du nettoyage domestique
-description: Les robots aspirateurs de course : la nouvelle tendance du nettoyage domestique
+title: Les robots aspirateurs de course, la nouvelle tendance du nettoyage domestique
+description: Les robots aspirateurs de course, la nouvelle tendance du nettoyage domestique
 tags: []
 ---
 
@@ -28,5 +28,7 @@ voici une vidéo de démonstration :
 
 
 
+---
 
+cette article a entièrement était généré pas chatGPT (sauf pour la vidéos).
 
