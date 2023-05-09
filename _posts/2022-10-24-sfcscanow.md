@@ -22,7 +22,7 @@ Dism /Online /Cleanup-Image /RestoreHealth
 
 ## Sans Windows Update
 
-Si les commandes précédentes échouent, cela est dû a une défaillance de Windows Update.
+Si les commandes précédentes échouent, cela peut etre probablement dû a une défaillance de Windows Update.
 Pour contourner le problème, on utilise comme source une image (ISO) de Windows pour lancer la réparation.
 
 ```powershell
