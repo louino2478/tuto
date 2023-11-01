@@ -11,7 +11,7 @@ Cette documentation recueille des commandes Windows pour réparer des problèmes
 
 # **Vérification de l'image de Windows :**
 
-Avant d'effectuer une réparation de Windows, nous devons d'abord s'assurer son image soit en bon état. Et dans le cas contraire la réparer.
+Avant d'effectuer une réparation de Windows, nous devons d'abord s'assurer que son image soit en bon état. Et dans le cas contraire la réparer.
 
 ## Avec Windows Update
 
